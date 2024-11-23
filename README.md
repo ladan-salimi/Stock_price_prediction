@@ -34,7 +34,7 @@ This project involves analyzing and visualizing financial data for various stock
    - Risk-return scatter plots and correlation heatmaps summarize the analysis visually.
    - Predicted vs. actual stock prices are plotted to evaluate the performance of the LSTM model.
 
-How to Run:
+# How to Run:
 1. Requirements:
    - Python 3.x
    - Libraries: pandas, numpy, matplotlib, seaborn, tensorflow/keras, pyswarm (for PSO)
@@ -53,7 +53,7 @@ How to Run:
    - Heatmap showing stock correlations.
    - Predicted vs. actual stock price plots from the LSTM model.
 
-Insights:
+# Insights:
 - Moving averages highlight short-term, intermediate, and long-term trends.
 - Risk-return analysis compares the volatility and returns of different stocks.
 - Correlation analysis reveals relationships between stocks, guiding diversification.
