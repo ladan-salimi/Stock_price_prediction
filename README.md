@@ -1,4 +1,4 @@
-# Stock Analysis and Visualization
+# Stock price Analysis, prediction and Visualization
 
 # Overview:
 This project involves analyzing and visualizing financial data for various stocks in different sectors, such as Apple (AAPL), Amazon (AMZN), Google (GOOG), and Microsoft (MSFT) from the technology sector. It combines traditional stock analysis techniques with machine learning methods, such as LSTM (Long Short-Term Memory) networks for next-value prediction and Particle Swarm Optimization (PSO) for hyperparameter tuning. The goal is to study stock trends and predict future stock prices.
