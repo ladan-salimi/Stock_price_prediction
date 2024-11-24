@@ -25,9 +25,7 @@ This project involves analyzing and visualizing financial data for various stock
    - The LSTM model uses past sequences of stock prices as input and predicts future prices.
    - Feature scaling and supervised learning transformation are applied to preprocess the data for LSTM.
 
-6. Hyperparameter Optimization (PSO):
-   - Particle Swarm Optimization (PSO) is used to optimize the `sequence_length` hyperparameter of the LSTM model.
-   - PSO helps find the optimal size of sliding window for feature engineering by minimizing prediction errors (MSE).
+6. Hyperparameter Optimization using Optuna
 
 7. Visualization:
    - Subplots show trends for individual stocks, including their moving averages.
