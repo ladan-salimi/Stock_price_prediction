@@ -17,7 +17,7 @@ This project involves analyzing and visualizing financial data for various stock
    - A heatmap visualizes these correlations.
   
 
-# Model prediction
+# Model Prediction
 1. Data Loading and Preprocessing:
    - Historical stock prices are loaded from CSV files for multiple companies.
    - Daily closing prices are extracted and cleaned for analysis.
