@@ -3,29 +3,34 @@
 # Overview:
 This project involves analyzing and visualizing financial data for various stocks in different sectors, such as Apple (AAPL), Amazon (AMZN), Google (GOOG), and Microsoft (MSFT) from the technology sector. It combines traditional stock analysis techniques with machine learning methods, such as LSTM (Long Short-Term Memory) networks for next-value prediction and Particle Swarm Optimization (PSO) for hyperparameter tuning. The goal is to study stock trends and predict future stock prices.
 
-# Features:
-1. Data Loading and Preprocessing:
-   - Historical stock prices are loaded from CSV files for multiple companies.
-   - Daily closing prices are extracted and cleaned for analysis.
-
-2. Moving Averages:
+# Data Explotary:
+1. Moving Averages:
    - Moving averages (10-day, 20-day, and 50-day) are calculated to smooth fluctuations and identify trends.
 
-3. Risk vs. Return Analysis:
+2. Risk vs. Return Analysis:
    - Daily percentage returns are computed.
    - Expected return (average daily return) and risk (standard deviation of returns) are calculated.
    - A scatter plot visualizes the tradeoff between risk and return.
 
-4. Correlation Analysis:
+3. Correlation Analysis:
    - Correlation between stocks is calculated to understand their relationships.
    - A heatmap visualizes these correlations.
+  
+
+# Model prediction
+1. Data Loading and Preprocessing:
+   - Historical stock prices are loaded from CSV files for multiple companies.
+   - Daily closing prices are extracted and cleaned for analysis.
+   - Normalization
+   - Encoding stock indices using LableEncoding()
+
+2. Hyperparameter Optimization using Optuna
 
 5. Next Value Prediction (LSTM):
    - LSTM networks are implemented to predict the next day's stock price based on historical data.
    - The LSTM model uses past sequences of stock prices as input and predicts future prices.
    - Feature scaling and supervised learning transformation are applied to preprocess the data for LSTM.
 
-6. Hyperparameter Optimization using Optuna
 
 7. Visualization:
    - Subplots show trends for individual stocks, including their moving averages.
