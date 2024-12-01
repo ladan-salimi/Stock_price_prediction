@@ -1,7 +1,7 @@
-# Stock price analysis, prediction, and Visualization
+# Stock price analysis, prediction, and visualization
 
 # Overview:
-This project involves analyzing and visualizing financial data for various stocks in different sectors, such as Apple (AAPL), Amazon (AMZN), Google (GOOG), and Microsoft (MSFT) from the technology sector. In this repo, there are three different models: simple(4 stocks, no tuning), Optimized model(4 stocks, Optuna) and Extended optimized model (Optuna and 14 stocks). All three models are based on LSTM (Long Short-Term Memory) networks for next-value prediction. The goal is to study stock trends and predict future stock prices.
+This project involves analyzing and visualizing financial data for various stocks in different sectors, such as Apple (AAPL), Amazon (AMZN), Google (GOOG), and Microsoft (MSFT) from the technology sector. In this repo, there are three different models: simple(4 stocks, no tuning), Optimized model(4 stocks, Optuna) and Extended optimized model (Optuna and 14 stocks). All three models are based on LSTM (Long Short-Term Memory) networks for next-value prediction.
 
 # Data Explotary:
 1. Moving Averages:
