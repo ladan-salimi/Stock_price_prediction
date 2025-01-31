@@ -19,7 +19,7 @@ This project involves analyzing and visualizing financial data for various stock
    - Normalization
    - Encoding stock indices using LableEncoding()
 
-2. Hyperparameter Optimization using Optuna
+2. Hyperparameter tuning using Optuna
 
 5. Next Value Prediction (LSTM):
    - LSTM networks are implemented to predict the next day's stock price based on historical data.
